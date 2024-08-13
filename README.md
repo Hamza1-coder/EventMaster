@@ -51,6 +51,40 @@ EventMaster is a powerful event management system built with Django and React. I
    python manage.py runserver
    ```
 
+### Frontend Setup
+1. Navigate to the Frontend Directory
+```
+cd ../frontend
+```
+2. Install Dependencies
+```
+npm install  # or `yarn install` if using yarn
+```
+3. Start the Development Server
+```
+npm start  # or `yarn start` if using yarn
+```
 
-   
+### Docker Setup (Optional)
+1. Build Docker Images
+```
+docker-compose build
+```
+2. Start Containers
+```
+docker-compose up
+```
+
+### Kubernetes Setup (Optional)
+```
+kubectl apply -f k8s/
+```
+
+### Contributing
+If you would like to contribute to the development of EventMaster, please submit a pull request or open an issue with your suggestions.
+
+### Contact
+For any questions or support, please reach out to ameer8483hamza@gmail.com.
+
+~ Feel free to adjust the commands and setup instructions based on your specific project configurations and deployment requirements.
 
