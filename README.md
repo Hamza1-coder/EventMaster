@@ -1,5 +1,5 @@
 # EventMaster
-Comprehensive Event Management with Django and React
+EventMaster is a sophisticated event management system designed to streamline the planning, execution, and tracking of events. Built with Django for the backend and React for the frontend, this project offers a comprehensive solution for managing various aspects of events, including registration, scheduling, ticketing, and user management.
 
 
 # EventMaster: Comprehensive Event Management with Django and React
@@ -35,3 +35,22 @@ EventMaster is a powerful event management system built with Django and React. I
    ```bash
    git clone https://github.com/yourusername/eventmaster.git
    cd eventmaster/backend
+   ```
+2. **Create and Activate a Virtual Environment**
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+3. **Install Dependencies**
+   ```
+   pip install -r requirements.txt
+   ```
+4. **Run Migrations & Server**
+   ```
+   python manage.py migrate
+   python manage.py runserver
+   ```
+
+
+   
+
